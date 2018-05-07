@@ -155,6 +155,11 @@ a.slideContact:hover {
     padding-top: 1rem;
 }
 
+.item img {
+    border: solid 1px #23475a;
+    border-radius: 3px;
+}
+
 .skillsSection,
 .contactSection {
     background-color: #23475a;
