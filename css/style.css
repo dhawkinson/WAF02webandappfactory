@@ -115,6 +115,10 @@ a.slideContact:hover {
     z-index: 100;
 }
 
+#navigation ul.navbar-nav {
+    text-align: end;
+}
+
 #navigation li {
     padding: 0 10px;
 }
@@ -252,11 +256,22 @@ a.slideContact:hover {
 
 a.callToAction {
     color: #ffd700;
-    padding: 15px 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: inline-block;
     margin-top: 20px;
     border: 1px solid #ffd700;
     border-radius: 3px;
+}
+
+a.callToAction.call {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a.callToAction.email {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a.callToAction:hover {
