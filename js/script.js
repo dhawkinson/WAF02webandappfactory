@@ -16,7 +16,7 @@ $(document).ready(()=>{
 
     //  fire up typed
     let typed = new Typed(".typed", {
-        strings: ["Web Developer.", "Front End.", "Back End.", "Full Stack.", "App Developer.", "Apprentice."],
+        strings: ["Web Developer.", "Front End.", "Back End.", "Full Stack.", "App Developer."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
